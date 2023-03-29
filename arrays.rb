@@ -21,4 +21,10 @@ puts strain_score, "\n"
 puts "Divisible:", divisible, "\n"
 #Unshift adds an item to the front of an array, in this case the first false.
 divisible.unshift(false)
-puts divisible
+puts divisible, "\n"
+
+#The index position refers to the slot each piece of data is located in. A big thing to remember is that the first slot is position 0.
+#In my cities array index position is as follows. 0 = Denver, 1 = Austin, 2 = New York, 3 = Baltimore.
+
+
+
