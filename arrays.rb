@@ -3,3 +3,22 @@ points = [1,2,3,7]
 strain_score = [16.9, 4.1, 6.8, 12.3]
 divisible =[true, false, false, false]
 
+puts "Cities:",cities,"\n"
+# pop removes the final item from an arrary, in this case "Baltimore"
+cities.pop
+puts cities, "\n"
+
+puts "Points:", points, "\n"
+#push adds an item the end of an arrary. In this case "4" is added into index position 4(since we start at 0).
+points.push(4)
+puts points, "\n"
+
+puts "Strain Score:", strain_score, "\n"
+#Shift removes the first item from an arrary, in this case the float value of 19.9
+strain_score.shift
+puts strain_score, "\n"
+
+puts "Divisible:", divisible, "\n"
+#Unshift adds an item to the front of an array, in this case the first false.
+divisible.unshift(false)
+puts divisible
