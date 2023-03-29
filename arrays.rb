@@ -26,5 +26,7 @@ puts divisible, "\n"
 #The index position refers to the slot each piece of data is located in. A big thing to remember is that the first slot is position 0.
 #In my cities array index position is as follows. 0 = Denver, 1 = Austin, 2 = New York, 3 = Baltimore.
 
-
+#The count method tells you how many items are currently in your array. 
+#Since we removed the last item from "Cities" with the pop command above, we now only have 3 items on this array.
+puts cities.count
 
