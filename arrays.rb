@@ -30,3 +30,14 @@ puts divisible, "\n"
 #Since we removed the last item from "Cities" with the pop command above, we now only have 3 items on this array.
 puts cities.count
 
+#Earlier I was trying to figure out how to determine the length of an integer variable and I stumbled across the .digits method.
+#This method will take an integer and place each digit into an array. I will provide an example below.
+
+number = 1234
+print number.digits
+
+number.digits.each do |num|
+    print num
+end 
+
+#I am unsure why this is being flipped to 4321.... 
