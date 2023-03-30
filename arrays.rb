@@ -42,11 +42,9 @@ number.digits.each do |num|
     puts num
 end 
 
-puts "\n"
-
 #I am unsure why this is being flipped to 4321.... 
 #Just learned this method flips the integer. So to flip it back I think it would be...
-
+print "\n"
 number.digits.reverse.each do |num|
-    puts num
+    print num
 end 
