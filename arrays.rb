@@ -33,11 +33,20 @@ puts cities.count
 #Earlier I was trying to figure out how to determine the length of an integer variable and I stumbled across the .digits method.
 #This method will take an integer and place each digit into an array. I will provide an example below.
 
+puts "\n\n"
+
 number = 1234
-print number.digits
+print number.digits, "\n"
 
 number.digits.each do |num|
-    print num
+    puts num
 end 
 
+puts "\n"
+
 #I am unsure why this is being flipped to 4321.... 
+#Just learned this method flips the integer. So to flip it back I think it would be...
+
+number.digits.reverse.each do |num|
+    puts num
+end 
